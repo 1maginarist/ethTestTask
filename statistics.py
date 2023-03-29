@@ -8,7 +8,7 @@ import aiohttp
 async def get_square_correlation():
     # Настройка параметров
     endpoint = 'https://api.binance.com/api/v3/klines'
-    symbol_eth = 'BTCUSDT'
+    symbol_eth = 'ETHUSDT'
     symbol_btc = 'BTCUSDT'
     interval = '1d'
     start_time = '1609459200000' # 1Jan 2021
